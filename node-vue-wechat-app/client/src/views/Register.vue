@@ -73,6 +73,14 @@ export default {
                 alert('两次密码不一致！');
                 return;
             }
+
+            this.$axios.post("/api/users/register", this.user)
+            ,then(res => {
+                // 注册成功
+                alert('注册成功');
+                this.$router.push('./login')
+            })
+            // .catch(err => {}); 错误提醒
         }
     },
     components: {
