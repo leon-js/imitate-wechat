@@ -75,7 +75,7 @@ export default {
             }
 
             this.$axios.post("/api/users/register", this.user)
-            ,then(res => {
+            .then(res => {
                 // 注册成功
                 alert('注册成功');
                 this.$router.push('./login')

@@ -36,12 +36,14 @@ export default {
             user: {
                 email: '',
                 password: ''
-            }
+            },
+            lovingVue: false
         }
     },
     components: {
         InputGroup,
-        YButton
+        YButton,
+        Radio
     },
     computed:{
         isDisabled(){
