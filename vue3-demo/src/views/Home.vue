@@ -1,6 +1,5 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <div>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <HelloWorld
       @click="addOne"
@@ -10,8 +9,8 @@
       @click="addOne2"
       v-model="count2"
     >You clicked me {{count2}}</HelloWorld> -->
-    <buttonadd></buttonadd>
-    <buttonadd></buttonadd>
+    <buttonadd title="hello world"></buttonadd>
+    <buttonadd title="world hello"></buttonadd>
   </div>
 </template>
 
